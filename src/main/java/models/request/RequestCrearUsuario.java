@@ -1,4 +1,4 @@
-package models.creacionusuarios;
+package models.request;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

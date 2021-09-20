@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Pruebas de consumos de API de reqres in" skipped="0" tests="2" time="12.76" timestamp="2021-09-20 06:38:00"><testcase name="Obtener respuesta de un usuario no registrado en la API"/><testcase name="Actualizar lista de empleados en la API"/></testsuite>
