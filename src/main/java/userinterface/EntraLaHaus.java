@@ -9,5 +9,6 @@ public class EntraLaHaus {
   public static final Target DPB_MENU_ENTRA_RECURSOS = Target.the("Label menú Recursos ").located(By.xpath("//li[@id=\"dropdown-2\"]"));
   public static final Target LBL_INGRESAR = Target.the("Label menú Ingresar ").located(By.xpath("//a[@id=\"home-sign-up-btn__desktop\"]"));
   public static final Target BTN_ACEPTAR_COOKIES = Target.the("Botón aceptar cookies ").located(By.xpath("//button[contains(text(),'Aceptar')]"));
+  public static final Target MODAL_ENTRA_A_LA_HAUS= Target.the("Modal entra a la Haus ").located(By.xpath("//div[@id=\"home-sign-up-modal\"]"));
 
 }

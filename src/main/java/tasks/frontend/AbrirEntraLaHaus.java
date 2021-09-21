@@ -1,9 +1,10 @@
-package tasks;
+package tasks.frontend;
 
 import static userinterface.EntraLaHaus.BTN_ACEPTAR_COOKIES;
 import static userinterface.EntraLaHaus.DPB_MENU_ENTRA_LAHAUS;
 import static userinterface.EntraLaHaus.DPB_MENU_ENTRA_RECURSOS;
 import static userinterface.EntraLaHaus.LBL_INGRESAR;
+import static userinterface.EntraLaHaus.MODAL_ENTRA_A_LA_HAUS;
 
 import lombok.AllArgsConstructor;
 import net.serenitybdd.screenplay.Actor;
@@ -28,5 +29,6 @@ public class AbrirEntraLaHaus implements Task {
     actor.attemptsTo(Click.on(BTN_ACEPTAR_COOKIES));
     actor.attemptsTo(MoveMouse.to(DPB_MENU_ENTRA_LAHAUS));
     actor.attemptsTo(Click.on(LBL_INGRESAR));
+    MODAL_ENTRA_A_LA_HAUS.resolveFor(actor).waitUntilPresent().isCurrentlyVisible();
   }
 }

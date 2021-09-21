@@ -13,8 +13,8 @@ import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
 import org.hamcrest.Matchers;
 import questions.ComprobarStatusCode;
-import tasks.ActualizarUsuario;
-import tasks.ConsultarEmpleados;
+import tasks.servicios.ActualizarUsuario;
+import tasks.servicios.ConsultarEmpleados;
 
 public class ConsumoServiciosStepDefinition {
 

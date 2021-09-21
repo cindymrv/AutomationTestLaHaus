@@ -11,7 +11,8 @@ import io.cucumber.java.es.Entonces;
 import java.util.Map;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import tasks.AbrirEntraLaHaus;
+import tasks.frontend.AbrirEntraLaHaus;
+import tasks.frontend.IniciarSesion;
 
 public class IniciarSesionLaHaus {
 
@@ -28,8 +29,8 @@ public class IniciarSesionLaHaus {
   }
 
   @Cuando("inice sesión con la Cuenta de Google")
-  public void inice_sesión_con_la_cuenta_de_google(Map<String, String> mapInformacionUsuario) {
-
+  public void iniciarSesionCuentaGoogle(Map<String, String> mapInformacionUsuario) {
+theActorInTheSpotlight().attemptsTo(IniciarSesion.conCuentaGooge(mapInformacionUsuario));
   }
 
   @Entonces("el sistema deberá direccionarlo a la página de La Haus, donde el usuario deberá poder ver en el menú la opción {string}")

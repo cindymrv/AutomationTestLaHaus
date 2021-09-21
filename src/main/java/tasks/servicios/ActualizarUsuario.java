@@ -1,4 +1,4 @@
-package tasks;
+package tasks.servicios;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.rest.questions.ResponseConsequence.seeThatResponse;
