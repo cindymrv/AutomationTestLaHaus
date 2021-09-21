@@ -1,2 +1,2 @@
 # AutomationTestLaHaus
-Prueba técnica para el rol de automatizador La Haus
+Prueba técnica para el rol de automatizador La Haus.
