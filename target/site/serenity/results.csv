@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "Pruebas de consumos de API de reqres in","Obtener respuesta de un usuario no registrado en la API","SUCCESS","2021-09-20T18:38:00.522-05:00[America/Bogota]","0.0","10.81"
 "Pruebas de consumos de API de reqres in","Actualizar lista de empleados en la API","SUCCESS","2021-09-20T18:38:11.366-05:00[America/Bogota]","0.0","1.95"
-"Pruebas de inicio de sesión en La Haus","Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google","SUCCESS","2021-09-21T16:48:15.004-05:00[America/Bogota]","0.0","29.99"
+"Pruebas de inicio de sesión en La Haus","Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google","SUCCESS","2021-09-21T19:25:05.305-05:00[America/Bogota]","0.0","39.56"

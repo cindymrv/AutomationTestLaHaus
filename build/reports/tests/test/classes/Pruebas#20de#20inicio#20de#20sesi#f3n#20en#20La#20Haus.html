@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">41.057s</div>
+<div class="counter">50.059s</div>
 <p>duration</p>
 </div>
 </td>
@@ -64,7 +64,10 @@
 <a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Standard error</a>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
@@ -79,12 +82,19 @@
 </thead>
 <tr>
 <td class="success">Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google</td>
-<td class="success">41.057s</td>
+<td class="success">50.059s</td>
 <td class="success">passed</td>
 </tr>
 </table>
 </div>
 <div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Step argument class io.cucumber.core.gherkin.messages.GherkinMessagesDataTableArgument
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
 <pre>[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/cindreva/Documents/Repositorio%20Git/AutomationTestLaHaus/src/test/resources/features/iniciar_sesion_la_hause.feature
@@ -100,22 +110,23 @@ Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google(prueb
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider - Using automatically driver download
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.26.0 (resolved driver for Firefox 72)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\cindreva\.cache\selenium\geckodriver\win64\0.26.0\geckodriver.exe
-sep 21, 2021 4:48:16 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+sep 21, 2021 7:25:07 PM org.openqa.selenium.remote.DesiredCapabilities firefox
 INFORMACIÓN: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: org.openqa.selenium.firefox..., headless: false, loggingPrefs: org.openqa.selenium.logging..., marionette: true, moz:firefoxOptions: {}}
-1632260899026	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\cindreva\\AppData\\Local\\Temp\\rust_mozprofileB2rxN8&quot;
-1632260899697	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
-1632260899726	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1632260899727	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1632260899727	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1632260899727	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1632270309146	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\cindreva\\AppData\\Local\\Temp\\rust_mozprofilegvKZdY&quot;
+1632270309804	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1632270309835	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1632270309836	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1632270309836	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1632270309836	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1632260903128	Marionette	INFO	Listening on port 50519
-1632260903219	Marionette	WARN	TLS certificate errors will be ignored for this session
-sep 21, 2021 4:48:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1632270313247	Marionette	INFO	Listening on port 56868
+1632270313352	Marionette	WARN	TLS certificate errors will be ignored for this session
+sep 21, 2021 7:25:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-1632260925103	Marionette	INFO	Stopped listening on port 50519
+1632270345041	Marionette	INFO	Stopped listening on port 56868
+[Child 7452, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1579290903/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 507
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
@@ -141,7 +152,7 @@ Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.1.1</a> at 21/09/2021 04:48:57 PM</p>
+<a href="http://www.gradle.org">Gradle 6.1.1</a> at 21/09/2021 07:25:57 PM</p>
 </div>
 </div>
 </body>

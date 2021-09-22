@@ -23,6 +23,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/interactions/front/DiligenciarInformacionCuentaGoogle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/models/builders/RequestActualizarUsuarioBuilder.java">
           <value>
             <set />
@@ -98,7 +103,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tasks/frontend/DiligenciarInformacionCuentaGoogle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/tasks/frontend/IniciarSesion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/tasks/frontend/IniciarSesionCuentaGoogle.java">
           <value>
             <set />
           </value>
@@ -118,6 +133,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/userinterface/IniciarSesionCuentaGoogle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/userinterface/IniciarSesionElegirCuenta.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/utils/RecursoFront.java">
           <value>
             <set />
@@ -129,6 +154,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/runners/ConsumoServicioRunner.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/runners/IniciarSesionElegirCuentaLaHausRunner.java">
           <value>
             <set />
           </value>

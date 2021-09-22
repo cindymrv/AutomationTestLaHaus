@@ -12,7 +12,7 @@ import java.util.Map;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import tasks.frontend.AbrirEntraLaHaus;
-import tasks.frontend.IniciarSesion;
+import tasks.frontend.IniciarSesionCuentaGoogle;
 
 public class IniciarSesionLaHaus {
 
@@ -20,17 +20,17 @@ public class IniciarSesionLaHaus {
   public void abrirPaginaWeb(String nombreActor) {
     setTheStage(new OnlineCast());
     theActorCalled(nombreActor).wasAbleTo(Open.url(URL_LA_HAUS_COLOMBIA.getRecursoFront()));
-
   }
 
   @Cuando("ingrese a la opción Ingresar en Entra a la Haus")
   public void ingresarEntraLaHaus() {
-   theActorInTheSpotlight().attemptsTo(AbrirEntraLaHaus.ingresar());
+    theActorInTheSpotlight().attemptsTo(AbrirEntraLaHaus.ingresar());
   }
 
   @Cuando("inice sesión con la Cuenta de Google")
   public void iniciarSesionCuentaGoogle(Map<String, String> mapInformacionUsuario) {
-theActorInTheSpotlight().attemptsTo(IniciarSesion.conCuentaGooge(mapInformacionUsuario));
+    theActorInTheSpotlight()
+        .attemptsTo(IniciarSesionCuentaGoogle.conCuentaGooge(mapInformacionUsuario));
   }
 
   @Entonces("el sistema deberá direccionarlo a la página de La Haus, donde el usuario deberá poder ver en el menú la opción {string}")
