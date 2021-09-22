@@ -3,14 +3,19 @@ package stepdefinitions;
 import static net.serenitybdd.screenplay.actors.OnStage.setTheStage;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
+import static utils.RecursoFront.MENU_MI_PERFIL;
 import static utils.RecursoFront.URL_LA_HAUS_COLOMBIA;
 
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 import java.util.Map;
+import static java.lang.Boolean.TRUE;
+import static org.hamcrest.core.IsEqual.equalTo;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import questions.frontend.MiPerfil;
 import tasks.frontend.AbrirEntraLaHaus;
 import tasks.frontend.IniciarSesionCuentaGoogle;
 
@@ -33,11 +38,10 @@ public class IniciarSesionLaHaus {
         .attemptsTo(IniciarSesionCuentaGoogle.conCuentaGooge(mapInformacionUsuario));
   }
 
-  @Entonces("el sistema deberá direccionarlo a la página de La Haus, donde el usuario deberá poder ver en el menú la opción {string}")
-  public void el_sistema_deberá_direccionarlo_a_la_página_de_la_haus_donde_el_usuario_deberá_poder_ver_en_el_menú_la_opción(
-      String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
+  @Entonces("el sistema deberá direccionarlo a la página de La Haus, donde el usuario deberá poder ver en el menú la opción Mi perfil")
+  public void verificarInicoSesionUsuario() {
+    theActorInTheSpotlight().should(GivenWhenThen.seeThat(MiPerfil.enPantallaPrincipal(
+        MENU_MI_PERFIL.getRecursoFront()),equalTo(TRUE)));
   }
 
 }

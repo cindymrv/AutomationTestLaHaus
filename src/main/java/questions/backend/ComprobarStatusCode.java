@@ -1,4 +1,4 @@
-package questions;
+package questions.backend;
 
 import lombok.AllArgsConstructor;
 import net.serenitybdd.rest.SerenityRest;

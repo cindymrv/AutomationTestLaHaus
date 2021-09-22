@@ -12,7 +12,7 @@ import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
 import org.hamcrest.Matchers;
-import questions.ComprobarStatusCode;
+import questions.backend.ComprobarStatusCode;
 import tasks.servicios.ActualizarUsuario;
 import tasks.servicios.ConsultarEmpleados;
 

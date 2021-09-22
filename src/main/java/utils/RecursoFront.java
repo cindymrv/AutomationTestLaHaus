@@ -5,9 +5,10 @@ import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public enum RecursoFront {
+public enum RecursoFront  {
 
-  URL_LA_HAUS_COLOMBIA("https://sobreplanos-staging.herokuapp.com/?locale=co&country_selected=true");
+  URL_LA_HAUS_COLOMBIA("https://sobreplanos-staging.herokuapp.com/?locale=co&country_selected=true"),
+  MENU_MI_PERFIL("Mi perfil");
 
   private final String recursoFront;
 }

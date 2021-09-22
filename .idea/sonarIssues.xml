@@ -18,6 +18,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../AutomationStudyGroup/src/main/java/questions/NombreUsuario.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/build.gradle">
           <value>
             <set />
@@ -64,6 +69,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/questions/ComprobarStatusCode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/questions/backend/ComprobarStatusCode.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/questions/frontend/MiPerfil.java">
           <value>
             <set />
           </value>

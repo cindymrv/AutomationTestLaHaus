@@ -9,6 +9,6 @@ import org.junit.runner.RunWith;
     features = "src/test/resources/features/iniciar_sesion_la_hause.feature",
     glue = "stepdefinitions"
 )
-public class IniciarSesionElegirCuentaLaHausRunner {
+public class IniciarSesionCuentaLaHausRunner {
 
 }
