@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runners.ConsumoServicioRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="3RO-PQVIS5CD746" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+2 Scenarios (?[32m2 passed?[0m)
+7 Steps (?[32m7 passed?[0m)
+0m14,196s
+
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/cindreva/Documents/Repositorio%20Git/AutomationTestLaHaus/src/test/resources/features/consumos_servicios_reqres.feature
+[Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/cindreva/Documents/Repositorio%20Git/AutomationTestLaHaus/src/test/resources/features/consumos_servicios_reqres.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[Test worker] INFO  - ?[96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+?[0m
+[Test worker] INFO  - Test Suite Started: Pruebas de consumos de API de reqres in
+[pool-1-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@44f3fea3: Generating report for test outcome: Pruebas de consumos de API de reqres in:Actualizar lista de empleados en la API
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@44f3fea3: Generating report for test outcome: Pruebas de consumos de API de reqres in:Obtener respuesta de un usuario no registrado en la API
+[pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2136b454: Generating report for test outcome: Pruebas de consumos de API de reqres in:Actualizar lista de empleados en la API
+[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2136b454: Generating report for test outcome: Pruebas de consumos de API de reqres in:Obtener respuesta de un usuario no registrado en la API
+[pool-2-thread-1] INFO serenity.reporting - 
+----------------------------------------------------------------------
+| TEST NAME:   ?[1mObtener respuesta de un usuario no registrado en la API?[0m
+| RESULT:      ?[92mPassing?[0m
+| REQUIREMENT: Pruebas de consumos de API de reqres in
+| REPORT:      ?[96mfile:///C:/Users/cindreva/Documents/Repositorio%20Git/AutomationTestLaHaus/target/site/serenity/3326d65a381efb7aedcf9f935986b7c401ecd1186f4379f959c7975deba468ca.html?[0m
+----------------------------------------------------------------------
+[pool-2-thread-2] INFO serenity.reporting - 
+------------------------------------------------------
+| TEST NAME:   ?[1mActualizar lista de empleados en la API?[0m
+| RESULT:      ?[92mPassing?[0m
+| REQUIREMENT: Pruebas de consumos de API de reqres in
+| REPORT:      ?[96mfile:///C:/Users/cindreva/Documents/Repositorio%20Git/AutomationTestLaHaus/target/site/serenity/716324a27d185e01a0688500053972f07ebb6334e9e1ec864b754110ab2a3f44.html?[0m
+------------------------------------------------------
+]]></system-err>
+</testsuite>

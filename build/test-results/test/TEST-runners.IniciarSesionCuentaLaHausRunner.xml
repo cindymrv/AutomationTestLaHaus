@@ -4,7 +4,7 @@
   <system-out><![CDATA[
 1 Scenarios (?[32m1 passed?[0m)
 4 Steps (?[32m4 passed?[0m)
-1m13,752s
+0m57,898s
 
 
 ]]></system-out>
@@ -27,8 +27,8 @@
 -------------------------------------------------------------------------------------
 ?[0m
 [Test worker] INFO  - Test Suite Started: Pruebas de inicio de sesión en La Haus
-[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@54c4db6: Generating report for test outcome: Pruebas de inicio de sesión en La Haus:Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google
-[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@17979f33: Generating report for test outcome: Pruebas de inicio de sesión en La Haus:Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@238f1baa: Generating report for test outcome: Pruebas de inicio de sesión en La Haus:Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google
+[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@26f2cc95: Generating report for test outcome: Pruebas de inicio de sesión en La Haus:Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google
 [pool-2-thread-1] INFO serenity.reporting - 
 ---------------------------------------------------------------------------------------
 | TEST NAME:   ?[1mIniciar sesión en la aplicación La Haus por medio de la cuenta de Google?[0m

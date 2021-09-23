@@ -8,7 +8,6 @@ buildscript {
         }
     }
     dependencies {
-        classpath "io.freefair.gradle:lombok-plugin:5.0.0-rc6"
         classpath "net.serenity-bdd:serenity-gradle-plugin:2.2.0"
         classpath "net.serenity-bdd:serenity-single-page-report:2.2.0"
     }
@@ -16,7 +15,6 @@ buildscript {
 
 plugins {
     id "java"
-    id "io.freefair.lombok" version "5.0.0-rc6"
 }
 
 tasks.withType(JavaCompile) {
@@ -26,7 +24,6 @@ tasks.withType(JavaCompile) {
 
 apply plugin: 'java'
 apply plugin: 'idea'
-apply plugin: "io.freefair.lombok"
 apply plugin: 'net.serenity-bdd.aggregator'
 
 description = 'Practicas Servicios'

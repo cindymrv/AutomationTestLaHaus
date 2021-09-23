@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Pruebas de inicio de sesión en La Haus" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-23T01:31:00" hostname="3RO-PQVIS5CD746" time="73.34">
+<testsuite name="Pruebas de inicio de sesión en La Haus" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-23T16:08:54" hostname="3RO-PQVIS5CD746" time="57.315">
   <properties/>
-  <testcase name="Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google" classname="Pruebas de inicio de sesión en La Haus" time="73.34"/>
+  <testcase name="Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google" classname="Pruebas de inicio de sesión en La Haus" time="57.315"/>
   <system-out><![CDATA[?[92m|-- Dado que el 'usuario' se encuentra en la página web de La Haus de Colombia?[0m
 ?[92m|---- usuario opens the https://sobreplanos-staging.herokuapp.com/?locale=co&country_selected=true?[0m
 ?[92m|-- Cuando ingrese a la opción Ingresar en Entra a la Haus?[0m
@@ -34,17 +34,14 @@ Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google(prueb
 --------------------------------------------------------------------------------
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Using automatically driver download
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
-[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
-[Test worker] INFO io.github.bonigarcia.wdm.online.Downloader - Downloading https://chromedriver.storage.googleapis.com/93.0.4577.63/chromedriver_win32.zip
-[Test worker] INFO io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver_win32.zip
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\cindreva\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --lang=es,--disable-popup-b..., goog:chromeOptions: {args: [--lang=es, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --disable-translate, --always-authorize-plugins, --disable-extensions], extensions: []}, loggingPrefs: org.openqa.selenium.logging...}
-Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 17950
+Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 41258
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-sep 22, 2021 8:31:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+sep 23, 2021 11:09:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 [Test worker] INFO  - ?[92m
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
