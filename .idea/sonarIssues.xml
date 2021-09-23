@@ -23,6 +23,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../AutomationStudyGroup/src/main/java/tasks/frontend/AbrirRegistro.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AutomationStudyGroup/src/main/java/userinterface/PetStorePaginaInicial.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AutomationStudyGroup/src/main/java/userinterface/PetStoreRegistroUsuario.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AutomationStudyGroup/src/test/java/stepdefinitions/RegistroUsuarioPetStoreStepDefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../AutomationStudyGroup/src/test/resources/features/registro_usuario_pet_store.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/build.gradle">
           <value>
             <set />
@@ -209,6 +234,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/resources/features/iniciar_sesion_la_hause.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/serenity.conf">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Repositorios/aseguramiento-coreempresariales-pa/src/test/resources/data/datos_linea_propiedad.csv">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Repositorios/aseguramiento-coreempresariales-pa/src/test/resources/data/datos_tomador_empresariales.csv">
           <value>
             <set />
           </value>
