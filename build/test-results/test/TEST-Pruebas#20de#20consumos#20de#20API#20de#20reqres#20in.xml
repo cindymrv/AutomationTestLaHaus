@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Pruebas de consumos de API de reqres in" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-09-23T16:08:54" hostname="3RO-PQVIS5CD746" time="13.636">
+<testsuite name="Pruebas de consumos de API de reqres in" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-09-23T19:20:37" hostname="3RO-PQVIS5CD746" time="9.626">
   <properties/>
-  <testcase name="Obtener respuesta de un usuario no registrado en la API" classname="Pruebas de consumos de API de reqres in" time="12.419"/>
-  <testcase name="Actualizar lista de empleados en la API" classname="Pruebas de consumos de API de reqres in" time="1.217"/>
+  <testcase name="Obtener respuesta de un usuario no registrado en la API" classname="Pruebas de consumos de API de reqres in" time="8.549"/>
+  <testcase name="Actualizar lista de empleados en la API" classname="Pruebas de consumos de API de reqres in" time="1.077"/>
   <system-out><![CDATA[?[92m|-- Dado que 'Cindy' realiza el consumo de la url base 'https://reqres.in/api'?[0m
 ?[92m|-- Cuando consulte un usuario no registrado en la API?[0m
 ?[92m|---- Cindy consultar empleados?[0m
@@ -18,7 +18,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 404 Not Found
-Date: Thu, 23 Sep 2021 16:12:07 GMT
+Date: Thu, 23 Sep 2021 19:23:46 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 2
 Connection: keep-alive
@@ -29,11 +29,11 @@ via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: EXPIRED
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AzNqs%2FxC%2FUB58m9WE5zZh1QeuT%2BNdN9GsiTLEsJ8uUpQER73%2FXD37UGjRouNvAPhpxYlTt7aI0Lwf1atVDRVAhSkBt6TqMCp%2FbbEhjk7G4D224Y7MzaOMdN9ldY%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ML7CTpjpe8GP%2FTnTGPNSLZGiB9XPRbVQOgNrYkhxG3vquIZtHMZDwKjex47MWUgyqwcq0KaZ7aVTsWfmZHHpaxp83%2BaJFNJo34ohEqdl2%2FayakdGQU4H6EiiTPE%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 69350d7f1e4d67b6-MIA
+CF-RAY: 6936263e28e109f2-MIA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
 {
@@ -52,25 +52,25 @@ Step argument class io.cucumber.core.gherkin.messages.GherkinMessagesDataTableAr
 ?[92m|------ Cindy executes a PUT on the resource /users/2?[0m
 ?[92m|------ A valid response is returned?[0m
 HTTP/1.1 200 OK
-Date: Thu, 23 Sep 2021 16:12:10 GMT
+Date: Thu, 23 Sep 2021 19:23:49 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 40
 Connection: keep-alive
 x-powered-by: Express
 access-control-allow-origin: *
-etag: W/"28-3vVFp25b3lB6VhrEWKhPbnJ1dDM"
+etag: W/"28-x+iJs5bUvSs1sz7rK+GLW9/CAMA"
 via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Zp1H76AEx56WKX9xSB0BDEtIloo1Nv3Z6V3jPuiqgRllFALCmCuRDYeCilmFnrv9xcOASf9eDnLdBU9D6Qm%2F%2BfHXngWOqk%2BbOT9rq3PQAepXZSaoum6RPATkRxw%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=G8i%2BLb0ggKKCvBxl7wrFYP4D4tlFMh4daxAN8TITZhQx94g25DqS%2BhGt1QowNDkmou6edeZtnLMNb8aypVt7doC0q2pclNRg3FARoUxRgBXhwnq5KmB4eVZH50A%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 69350d914cda099a-MIA
+CF-RAY: 6936264e095b0a1e-MIA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
 {
-    "updatedAt": "2021-09-23T16:12:09.996Z"
+    "updatedAt": "2021-09-23T19:23:49.002Z"
 }
 ?[92m|-- Entonces observo una lista de empleados es obtenida correctamente con un status code 200?[0m
 ?[92m|---- Then comprobar status code should be (true)?[0m
