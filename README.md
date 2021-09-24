@@ -6,5 +6,5 @@ Para ejecutar todos los test del proyecto se puede usar
 ```
 gradle test
 
-# Ejecutar en Jenkins
+# Ejecución Todos los test
 
