@@ -14,4 +14,4 @@ Para el punto de servicios: ConsumoServicioRunner
 Para el punto de automatización de Front: IniciarSesionCuentaLaHausRunner
 ```
 
-No se realizó el punto del servicio integrado de automatización
+No se realizó el punto del servidor automatizado de integración
