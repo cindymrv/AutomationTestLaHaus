@@ -5,6 +5,6 @@ Prueba técnica para el rol de automatizador La Haus.
 Para ejecutar todos los test del proyecto se puede usar
 ```
 gradle test
-
+```
 # Ejecución Todos los test
 
