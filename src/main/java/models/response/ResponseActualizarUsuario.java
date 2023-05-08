@@ -21,11 +21,11 @@ public class ResponseActualizarUsuario implements Serializable
 {
 
   @JsonProperty("name")
-  public String name;
+  private String name;
   @JsonProperty("job")
-  public String job;
+  private String job;
   @JsonProperty("updatedAt")
-  public String updatedAt;
+  private String updatedAt;
   private final static long serialVersionUID = 3641578637710884741L;
 
 }

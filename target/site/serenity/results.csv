@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Pruebas de consumos de API de reqres in","Obtener respuesta de un usuario no registrado en la API","SUCCESS","2021-09-23T14:20:37.729-05:00[America/Bogota]","0.0","8.18"
-"Pruebas de consumos de API de reqres in","Actualizar lista de empleados en la API","SUCCESS","2021-09-23T14:20:45.953-05:00[America/Bogota]","0.0","1.05"
-"Pruebas de inicio de sesión en La Haus","Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google","SUCCESS","2021-09-23T13:51:37.338-05:00[America/Bogota]","0.0","37.78"
+"Pruebas de consumos de API de reqres in","Obtener respuesta de un usuario no registrado en la API","SUCCESS","2023-04-14T14:06:27.666756-05:00[America/Bogota]","0.0","300.19"
+"Pruebas de consumos de API de reqres in","Actualizar lista de empleados en la API","SUCCESS","2023-04-14T14:11:27.877096-05:00[America/Bogota]","0.0","382.76"
+"Validate the form","Scenario to validate the form to register a student","PENDING","2023-05-04T09:48:30.982065-05:00[America/Bogota]","0.0","0.14"
+"Pruebas de inicio de sesión en La Haus","Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google","ERROR","2023-05-03T16:18:16.144359-05:00[America/Bogota]","0.0","6.43"

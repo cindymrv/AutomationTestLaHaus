@@ -23,13 +23,13 @@ public class ResponseCrearUsuario implements Serializable
 {
 
     @JsonProperty("name")
-    public String name;
+    private String name;
     @JsonProperty("job")
-    public String job;
+    private String job;
     @JsonProperty("id")
-    public String id;
+    private String id;
     @JsonProperty("createdAt")
-    public String createdAt;
+    private String createdAt;
     private final static long serialVersionUID = 3535212383231657931L;
 
 }

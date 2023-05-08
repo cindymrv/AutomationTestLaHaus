@@ -19,9 +19,9 @@ import lombok.Data;
 public class RequestCrearUsuario {
 
     @JsonProperty("name")
-    public String name;
+    private String name;
     @JsonProperty("job")
-    public String job;
+    private String job;
     private final static long serialVersionUID = 6551030489768543544L;
 
 

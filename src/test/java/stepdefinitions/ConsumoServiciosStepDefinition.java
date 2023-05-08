@@ -20,7 +20,7 @@ public class ConsumoServiciosStepDefinition {
 
   @Dado("que {string} realiza el consumo de la url base {string}")
   public void configurarInicioAutomatizacion(String nombreActor, String urlBase) {
-    setTheStage(new OnlineCast());
+    setTheStage(new OnlineCast()); //administrar el actor
     theActorCalled(nombreActor).whoCan(CallAnApi.at(urlBase));
   }
 

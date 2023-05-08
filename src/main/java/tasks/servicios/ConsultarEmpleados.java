@@ -14,7 +14,7 @@ public class ConsultarEmpleados implements Task {
   private final String recurso;
 
   public static ConsultarEmpleados deLaApiSegunRecurso(String recurso) {
-    return Tasks.instrumented(ConsultarEmpleados.class, recurso);
+    return Tasks.instrumented(ConsultarEmpleados.class, recurso);//Se instrumenta la clase para que se muestre en los informes
   }
 
   @Override

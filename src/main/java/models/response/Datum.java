@@ -18,15 +18,15 @@ import java.io.Serializable;
 public class Datum implements Serializable
 {
     @JsonProperty("id")
-    public Integer id;
+    private Integer id;
     @JsonProperty("email")
-    public String email;
+    private String email;
     @JsonProperty("first_name")
-    public String firstName;
+    private String firstName;
     @JsonProperty("last_name")
-    public String lastName;
+    private String lastName;
     @JsonProperty("avatar")
-    public String avatar;
+    private String avatar;
     private final static long serialVersionUID = -8462621886118906822L;
 
 }

@@ -15,9 +15,9 @@ import java.io.Serializable;
 public class Support implements Serializable
 {
     @JsonProperty("url")
-    public String url;
+    private String url;
     @JsonProperty("text")
-    public String text;
+    private String text;
 
     private final static long serialVersionUID = 2709566143696207042L;
 

@@ -27,17 +27,17 @@ import lombok.Setter;
 public class ResponseListaEmpleados implements Serializable {
 
   @JsonProperty("page")
-  public Integer page;
+  private Integer page;
   @JsonProperty("per_page")
-  public Integer perPage;
+  private Integer perPage;
   @JsonProperty("total")
-  public Integer total;
+  private Integer total;
   @JsonProperty("total_pages")
-  public Integer totalPages;
+  private Integer totalPages;
   @JsonProperty("data")
-  public List<Datum> data = null;
+  private List<Datum> data = null;
   @JsonProperty("support")
-  public Support support;
+  private Support support;
   private final static long serialVersionUID = -9112121849417225541L;
 
 }

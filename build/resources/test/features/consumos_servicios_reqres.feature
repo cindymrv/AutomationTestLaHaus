@@ -10,8 +10,9 @@ Característica: Pruebas de consumos de API de reqres in
 
   Escenario: Obtener respuesta de un usuario no registrado en la API
     Cuando consulte un usuario no registrado en la API
-    Entonces observo una lista de empleados es obtenida correctamente con un status code 404
-    Y el servicio me debe indicar un status code 404
+    Entonces el servicio me debe indicar un status code 404
+    #observo una lista de empleados es obtenida correctamente con un status code 404
+
 
   Escenario: Actualizar lista de empleados en la API
     Cuando actualice un usuario en la API con características
