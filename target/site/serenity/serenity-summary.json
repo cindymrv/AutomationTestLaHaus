@@ -1,0 +1,185 @@
+{
+  "report": {
+    "title": "Serenity Summary Report",
+    "tagCategoryTitle": "Category",
+    "version": "",
+    "date": "2023-04-14T14:06:27.666756"
+  },
+  "results": {
+    "counts": {
+      "total": 4,
+      "success": 2,
+      "pending": 1,
+      "ignored": 0,
+      "skipped": 0,
+      "failure": 0,
+      "error": 1,
+      "compromised": 0
+    },
+    "percentages": {
+      "success": 50,
+      "pending": 25,
+      "ignored": 0,
+      "skipped": 0,
+      "failure": 0,
+      "error": 25,
+      "compromised": 0
+    },
+    "totalTestDuration": 689521,
+    "totalClockDuration": 1712523315,
+    "minTestDuration": 41,
+    "maxTestDuration": 382758,
+    "averageTestDuration": 172380
+  },
+  "resultsByFeature": [
+    {
+      "featureName": "Pruebas de consumos de API de reqres in",
+      "scenarios": [
+        {
+          "title": "Obtener respuesta de un usuario no registrado en la API",
+          "result": "success",
+          "outcomes": [
+            {
+              "result": "success",
+              "description": "",
+              "errorMessage": ""
+            }
+          ]
+        },
+        {
+          "title": "Actualizar lista de empleados en la API",
+          "result": "success",
+          "outcomes": [
+            {
+              "result": "success",
+              "description": "",
+              "errorMessage": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "featureName": "Pruebas de inicio de sesión en La Haus",
+      "scenarios": [
+        {
+          "title": "Iniciar sesión en la aplicación La Haus por medio de la cuenta de Google",
+          "result": "error",
+          "outcomes": [
+            {
+              "result": "error",
+              "description": "",
+              "errorMessage": "No such element exception: Cannot locate an element using id=dropdown-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "featureName": "Validate the form",
+      "scenarios": [
+        {
+          "title": "Scenario to validate the form to register a student",
+          "result": "pending",
+          "outcomes": []
+        }
+      ]
+    }
+  ],
+  "frequentFailures": [
+    {
+      "name": "No such element exception",
+      "count": 1
+    }
+  ],
+  "unstableFeatures": [
+    {
+      "name": "Pruebas de inicio de sesión en La Haus",
+      "failurePercentage": 100
+    }
+  ],
+  "coverage": [
+    {
+      "tagTitle": "Feature",
+      "tagCoverages": [
+        {
+          "tagName": "Pruebas de consumos de API de reqres in",
+          "testCount": 2,
+          "successRate": "100%",
+          "counts": {
+            "total": 4,
+            "success": 2,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          },
+          "percentages": {
+            "success": 100,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          }
+        },
+        {
+          "tagName": "Pruebas de inicio de sesión en La Haus",
+          "testCount": 1,
+          "successRate": "0%",
+          "counts": {
+            "total": 4,
+            "success": 0,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 1,
+            "compromised": 0
+          },
+          "percentages": {
+            "success": 0,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 100,
+            "compromised": 0
+          }
+        },
+        {
+          "tagName": "Validate the form",
+          "testCount": 1,
+          "successRate": "0%",
+          "counts": {
+            "total": 4,
+            "success": 0,
+            "pending": 1,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          },
+          "percentages": {
+            "success": 0,
+            "pending": 100,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ]
+}
+
+
+
